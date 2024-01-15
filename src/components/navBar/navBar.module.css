@@ -1,0 +1,11 @@
+.navBar{
+    grid-area: navBar;
+    background-color: green;
+    height: 300px;
+}
+
+.item{
+    margin: 5px;
+    font-size: 25px;
+    color: wheat;
+}

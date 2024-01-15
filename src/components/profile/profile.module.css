@@ -1,0 +1,43 @@
+
+
+.profile{
+    grid-area: main;
+    background-color: red;
+    display: grid;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 18% 1fr;
+
+    grid-template-areas: 
+    "hat hat"
+    "avatar diskription";
+}
+
+.hat{
+    grid-area: hat;
+    margin: 1%;
+    width: 98%;
+    height: 130px;
+    
+}
+
+.avatar{
+    margin: 10%;
+    width: 100px;
+    grid-area: avatar;
+}
+
+.description{
+    margin: 2%;
+    grid-area: diskription;
+}
+
+.posts{
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+.item{
+    margin: 10px;
+    font-size: 17px;
+}
